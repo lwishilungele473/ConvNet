@@ -1,8 +1,8 @@
 # unmapped
 
-Retrains [inception-v3](https://github.com/tensorflow/models/tree/master/inception) ConvNet on labeled imagery from mapbox-satellite to automate the search for unmapped roads in OSM.
+ConvNet on labeled imagery from mapbox-satellite to automate the search for unmapped roads in OSM.
 
-See [rodowi/mapscan](https://github.com/rodowi/mapscan) for a point-and-click interface to this classifier.
+![missing roads](https://raw.githubusercontent.com/rodowi/mapscan/master/scanning.gif) 
 
 ### Rationale
 
@@ -71,7 +71,7 @@ I tensorflow/examples/label_image/main.cc:205] noway (1): 0.0924149
 
 [90% chance there's an unmapped road at 16/11820/26685](https://b.tiles.mapbox.com/v4/mapbox.satellite/16/11856/26822@2x.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlpIdEpjOHcifQ.Cldl4wq_T5KOgxhLvbjE-w)
 
-Go to [Wiki](https://github.com/rodowi/unmapped/wiki/Results) to see more prediction results.
+
 
 #### Running a prediction server
 
